@@ -79,6 +79,17 @@ html {
     width:500px;
 }
 
+.line-divider{
+    position: absolute;
+    padding:1px;
+    width:70%;
+    left:12%;
+    top:800px;
+    background: #222831; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+
 .profile-container{
     position:absolute;
     top:950px;
@@ -182,11 +193,12 @@ html {
 
     position:absolute;
     top:2000px;
-    padding:25px;
-    width:97%;
+    padding:140px;
+    width: 100%;
     height:1000px;
-    left: 15px;    
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #222831; 
+
+   
 
     
 }
@@ -209,34 +221,34 @@ html {
     height:50px;
     left: 15px;    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-    background: #3d9bda; 
+    border-radius: 2px;
+    background: #000000; 
 }
 
 #projects-list{
     position:absolute;
     font-size:60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(122, 115, 115);
+    color:rgb(255, 255, 255);
     left:750px;
     top: 15px;
 }
 
 #project-section{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    font-size:75px;
+    font-size:50px;
+    color:white;
     position:absolute;
-    left:700px;
+    left:200px;
     top:75px;
 }
 #line-project{
     position: absolute;
-    padding:5px;
-    width:380px;
-    top:182px;
-    left:700px;
-    background-color: #79c2d0; 
+    padding:3px;
+    width:295px;
+    top:160px;
+    left:186px;
+    background-color: #000000; 
 }
 
 #fit-photo{
@@ -246,16 +258,125 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     image-rendering: -webkit-optimize-contrast;
-    width:400px;
+    width:350px;
 }
 
-
+#fit-photo:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
 #spanglish-photo{
     position:absolute;
     top:300px;
-    left:650px;
+    left:675px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     image-rendering: -webkit-optimize-contrast;
-    width:400px;
+    width:350px;
 }
+
+#spanglish-photo:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+#relief-photo{
+    position:absolute;
+    top:300px;
+    left:1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    image-rendering: -webkit-optimize-contrast;
+    width:350px;
+}
+
+#relief-photo:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+#pacman-photo{
+    position:absolute;
+    top:800px;
+    left:150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    image-rendering: -webkit-optimize-contrast;
+    width:350px;
+}
+
+#pacman-photo:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+#CMS-photo{
+    position:absolute;
+    top:800px;
+    left:675px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    image-rendering: -webkit-optimize-contrast;
+    width:350px;
+}
+
+#CMS-photo:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+#github-button{
+    position:absolute;
+    padding: 50px;
+    top:700px;;
+    left:750px;
+    background-image: url("images\github.png");
+    cursor:pointer;
+    background: none;
+    border:none;
+    outline: none;
+}
+
+#github{
+    position:absolute;
+    padding: 1px;
+    width:95px;
+    top:45px;
+    left:10px;
+}
+
+#github:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+#linked-button{
+    position:absolute;
+    padding: 50px;
+    top:704px;;
+    left:660px;
+    background-image: url("images\github.png");
+    cursor:pointer;
+    background: none;
+    border:none;
+    outline: none;
+}
+
+#linkedin{
+    position:absolute;
+    padding: 1px;
+    width:89px;
+    top:45px;
+    left:0px;
+}
+
+#linkedin:hover{
+    transform: scale(1.05) translate(0px, -5px); /* Grows the image slightly */
+    transition: transform 0.3s ease; /* Adds a smooth animation effect */
+}
+
+
+
+
+
+
