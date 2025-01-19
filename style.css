@@ -24,13 +24,25 @@ html {
     height: 5px; /* Adjust the height as needed */
     z-index: 1000; /* Ensure it stays on top */
 }
+
+.top-navigation-separate{
+    position: fixed;
+    padding: 1.4%;
+    outline-style:solid;
+    outline-width:.3px;
+    outline-color:black;
+    background-color: #ffffff;
+    width: 6%;
+    height: 5px; /* Adjust the height as needed */
+    z-index: 1001; /* Ensure it stays on top */
+}
 #navigation{
     position: fixed;
     padding: 1.5%;
-    background-color: #222831;
+   
     width: 100%;
     height: 5px; /* Adjust the height as needed */
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1002; /* Ensure it stays on top */
 }
 
 .below-nav{
@@ -168,6 +180,40 @@ html {
     background-color: black;
     top:2000px;
 }
+
+#top-navigation-name{
+    position:absolute;
+    color:rgb(0, 0, 0);
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    top:15px;
+    left:25px;
+    text-decoration: none;
+}
+
+#top-navigation-profile{
+    position:absolute;
+    color:white;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    top:20px;
+    left:200px;
+    text-decoration: none;
+}
+
+#top-navigation-project{
+    position:absolute;
+    color:white;
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    top:19px;
+    left:350px;
+    text-decoration: none;
+}
+
 
 .text-contain{
     position: absolute;
