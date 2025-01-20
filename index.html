@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        img {
+            max-width: 100%;
+        }
+        </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class = "container">
         <div class = "top-navigation-separate"></div>
         <div class = "top-navigation"></div>
-   
         <nav id = "navigation">
             <label id = "top-navigation-name">Justin Finn</label>
-            <a id = "top-navigation-profile" href = "#profile">About Me!</a>
-            <a id = "top-navigation-project" href = "#project">My Projects!</a>
+            <a id = "top-navigation-home" href = "#home"></a>
+            <a id = "top-navigation-profile" href = "#profile">About Me</a>
+            <a id = "top-navigation-project" href = "#project">My Projects</a>
+            <a id = "top-navigation-contact" href = "#contact">Contact Me</a>
         </nav>
-     
+
+        <section id = "home"></section>
         <button id = "github-button" href = "google.com">
             <img id = "github"src = "   images\github.png">
         </button>
         <button id = "linked-button" href = "google.com">
             <img id = "linkedin"src = "images\linked.webp">
+        </button>
+        <button id = "hand-button" href = "google.com">
+            <img id = "hand" src = "images\handshake-logo.png">
         </button>
         <div class = "spacer-prog"></div>
         <div class = "below-nav">
@@ -42,7 +53,7 @@
             <p class = "p3-sec">As of right now, I am looking for more ways to enhance my skillset and find more opportunities to put them to good use. My interests as of right now include: Software Development, Full-Stack Web Development, Artifiical Intelligence, and Networking. I also have a great interest in Database Managemenet and Cybersecurity. You can learn more at my <a href = "https://www.linkedin.com/in/justin-finn-347b612b5/">LinkedIn</a></p>
             <div id = "line"></div>
             </div>
-       
+            <div class = line-contact-divide id = "line-section"></div>
             <section id = "project"></section>
             <div></div>
             <div class = "project-container">
@@ -53,7 +64,16 @@
                 <img id ="pacman-photo" src = "images\pacman.png">
                 <img id ="CMS-photo" src = "images\CMS.png">
                 <div id = "line-project"></div>
-
+            </div>
+            <section id = "contact"></section>
+            <div class = line-contact-divde></div>
+            <div class = "contact-container">
+                
+                <label id = "contact-section">Contact Me!</label>
+             
+                <input id = "email-access" placeholder = "Enter Email Address">
+                <input id = "reason-access" placeholder = "Reason">
+                <button id = "submit">Submit</button>
             </div>
             
         
