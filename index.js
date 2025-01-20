@@ -1,25 +1,14 @@
-emailjs.init("WbJxHQjxdIE70RT8EXUrl");  // Use your actual User ID
+document.getElementById("github-button").onclick = function()
+{
+    window.location.href = "https://github.com/Justinfinn2891";
+}
 
-// Handle form submission
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent the form from submitting the default way
+document.getElementById("linked-button").onclick = function()
+{
+    window.location.href = "https://www.linkedin.com/in/justin-finn-347b612b5/";
+}
 
-    // Get the input values
-    const email = document.getElementById("email").value;
-    const reason = document.getElementById("reason").value;
-
-    // Prepare the email data
-    const emailData = {
-        email: email,
-        reason: reason
-    };
-
-    // Send the email
-    emailjs.send("service_cfef6s7", "template_z3elp5o", emailData)
-        .then(function(response) {
-            alert("Your message has been sent successfully!");
-        }, function(error) {
-            console.error("Error sending email:", error);
-            alert("Failed to send the message. Please check the console for more details.");
-        });
-});
+document.getElementById("hand-button").onclick = function()
+{
+    window.location.href = "https://app.joinhandshake.com/profiles/yfdcf6";
+}
