@@ -2,9 +2,9 @@
 
 Current Version: 1.0
 
-##Versions:
+## Versions:
 
-###Version 1.0
+### Version 1.0
 - Basic functioning website
 - about me, project, and contact section
 - basic ui design
